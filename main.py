@@ -1,6 +1,15 @@
 import streamlit as st
 from datetime import datetime
 
+
+st.set_page_config(
+    page_title="Jiya's App",  # The text that appears in the browser tab
+    page_icon="🚀",  # Can be an emoji or a path to an image/favicon file
+    layout="wide",  # Optional: 'centered' or 'wide'
+)
+
+
+
 # ---------------- PAGE SETTINGS ----------------
 st.set_page_config(
     page_title="Library Management System",
